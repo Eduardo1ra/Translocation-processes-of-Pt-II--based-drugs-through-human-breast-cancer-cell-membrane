@@ -1,0 +1,96 @@
+remark goes here
+MASS
+n5 14.007        0.530
+n4 14.007        0.530               
+Pt 195.078       2.380               
+o1 16.000        0.465
+os 16.000        0.465
+o  16.000        0.434
+c3 12.010        0.878
+c  12.010        0.616
+hc 1.008         0.135
+hn 1.008         0.161
+hx 1.008         0.135
+
+BOND
+c3-n5    222.600   1.511
+c3-n4    222.600   1.511       
+n4-Pt    111.520   2.064       
+n5-Pt    111.520   2.064       
+n5-hn    369.000   1.033
+n4-hn    369.000   1.033       
+c -o1    372.900   1.358
+c -os    372.900   1.358       
+Pt-os    150.577   2.027       
+Pt-o1    150.577   2.026       
+
+ANGLE
+c3-c3-n5    81.000    114.210
+c3-c3-n4    81.000    114.210   
+c3-n5-Pt   167.751    109.730
+c3-n4-Pt   167.743    109.730   
+c3-n5-hn    46.200    110.110
+c3-n4-hn    46.200    110.110      
+n4-Pt-n5   144.184     82.610   
+n4-Pt-os   136.316    179.120
+n4-Pt-o1   146.794     97.070   
+n5-c3-hx    60.100    108.01
+n4-c3-hx    60.100    108.01
+n5-Pt-os   146.794     97.070   
+n5-Pt-o1   136.395    179.120   
+c -c -o1    85.300    111.410
+c -c -os    85.300    111.410
+c -os-Pt   179.255    112.750   
+c -o1-Pt   179.264    112.750   
+Pt-n4-hn    59.939    110.810   
+Pt-n5-hn    59.939    110.810   
+os-Pt-o1   148.774     83.270   
+o1-c -o    114.800    123.250
+os-c -o    114.800    123.250   
+hn-n5-hn    40.000    108.300
+hn-n4-hn    40.000    108.300   
+
+DIHE
+c3-c3-n5-Pt   1    0.000         0.000           0.000      ATTN, need revision
+c3-c3-n5-hn   1    0.000         0.000           0.000      ATTN, need revision
+c3-n5-Pt-n4   1    0.000         0.000           0.000      ATTN, need revision
+c3-n5-Pt-os   1    0.000         0.000           0.000      ATTN, need revision
+c3-n5-Pt-o1   1    0.000         0.000           0.000      ATTN, need revision
+c3-n4-Pt-n5   1    0.000         0.000           0.000      ATTN, need revision
+c3-n4-Pt-os   1    0.000         0.000           0.000      ATTN, need revision
+c3-n4-Pt-o1   1    0.000         0.000           0.000      ATTN, need revision
+n4-Pt-n5-hn   1    0.000         0.000           0.000      ATTN, need revision
+n4-Pt-os-c    1    0.000         0.000           0.000      ATTN, need revision
+n4-Pt-o1-c    1    0.000         0.000           0.000      ATTN, need revision
+n5-Pt-n4-hn   1    0.000         0.000           0.000      ATTN, need revision
+n5-Pt-os-c    1    0.000         0.000           0.000      ATTN, need revision
+n5-Pt-o1-c    1    0.000         0.000           0.000      ATTN, need revision
+c -c -o1-Pt   1    0.000         0.000           0.000      ATTN, need revision
+c -os-Pt-o1   1    0.000         0.000           0.000      ATTN, need revision
+c -o1-Pt-os   1    0.000         0.000           0.000      ATTN, need revision
+Pt-n5-c3-hx   1    0.000         0.000           0.000      ATTN, need revision
+Pt-o1-c -o    1    0.000         0.000           0.000      ATTN, need revision
+os-Pt-n4-hn   1    0.000         0.000           0.000      ATTN, need revision
+os-Pt-n5-hn   1    0.000         0.000           0.000      ATTN, need revision
+o1-Pt-n4-hn   1    0.000         0.000           0.000      ATTN, need revision
+o1-Pt-n5-hn   1    0.000         0.000           0.000      ATTN, need revision
+hn-n5-c3-hx   1    0.000         0.000           0.000      ATTN, need revision
+
+IMPROPER
+c -o -c -os        10.5          180.0         2.0          General improper torsional angle (2 general atom types)
+c -o -c -o1        10.5          180.0         2.0          General improper torsional angle (2 general atom types)
+
+NONBON
+  n5          1.8240  0.1700
+  n4          1.8240  0.1700             
+  Pt          2.5603  6.9880             
+  o1          1.7713  0.0726
+  os          1.7713  0.0726             
+  o           1.7107  0.1463
+  c3          1.9069  0.1078
+  c           1.8606  0.0988
+  hn          0.6210  0.0100
+  hc          1.4593  0.0208
+  hx          1.0593  0.0208
+
+
