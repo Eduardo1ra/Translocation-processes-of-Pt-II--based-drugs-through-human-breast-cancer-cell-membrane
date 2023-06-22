@@ -1,0 +1,49 @@
+Remark line goes here
+MASS
+Pt 195.078       2.380               
+c5 35.453        1.910               
+c6 35.453        1.910               
+n5 14.007        0.530 
+n4 14.007        0.530
+hn 1.008         0.161              
+
+BOND
+Pt-c5    106.950   2.390      
+Pt-c6    106.942   2.390      
+Pt-n4    119.361   2.057      
+Pt-n5    119.364   2.057      
+hn-n5    369.000   1.033      
+hn-n4    369.000   1.033
+
+ANGLE
+Pt-n4-hn    55.174      111.650   
+Pt-n5-hn    55.174      111.650   
+c5-Pt-c6    92.739       94.620   
+c5-Pt-n4   113.030      178.180   
+c5-Pt-n5   105.703       87.190   
+c6-Pt-n4   105.712       87.190   
+c6-Pt-n5   112.162      178.180   
+n4-Pt-n5   122.162       91.000   
+hn-n5-hn    40.520      108.110   
+hn-n4-hn    40.520      108.110
+
+DIHE
+c5-Pt-n4-hn   1    0.000         0.000           0.000      ATTN, need revision
+c5-Pt-n5-hn   1    0.000         0.000           0.000      ATTN, need revision
+c6-Pt-n4-hn   1    0.000         0.000           0.000      ATTN, need revision
+c6-Pt-n5-hn   1    0.000         0.000           0.000      ATTN, need revision
+n4-Pt-n5-hn   1    0.000         0.000           0.000      ATTN, need revision
+n5-Pt-n4-hn   1    0.000         0.000           0.000      ATTN, need revision
+
+IMPROPER
+
+NONBON
+  Pt          2.5590  7.0100             
+  c5          1.9452  0.2638             
+  c6          1.9452  0.2638             
+  n5          1.4028  3.8748
+  n4          1.4028  3.8748
+  hn          0.6210  0.0100             
+
+
+
