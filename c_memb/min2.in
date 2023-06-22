@@ -1,0 +1,9 @@
+Lipid minimization2
+&cntrl
+  imin   = 1,
+  maxcyc = 9000,
+  ncyc   = 4500,
+  ntb    = 1,
+  ntr    = 0,
+  cut    = 12
+ /

@@ -1,0 +1,18 @@
+Lipid minimization
+&cntrl
+  imin=1,      
+  maxcyc=40000,
+  ncyc=20000,     
+  ntb=1,        
+  ntp=0,       
+  ntf=1,     
+  ntc=1,  
+  ntpr=50,     
+  ntwr=2000,    
+  cut=12.0,  
+ /
+Hold lipid fixed
+500.0
+RES 32 905
+END
+END
