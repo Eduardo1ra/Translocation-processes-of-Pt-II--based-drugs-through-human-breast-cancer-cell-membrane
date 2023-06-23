@@ -1,0 +1,4 @@
+trajin pull_center.nc 3600 3600 1
+trajout frame_70.0.rst restart
+
+
