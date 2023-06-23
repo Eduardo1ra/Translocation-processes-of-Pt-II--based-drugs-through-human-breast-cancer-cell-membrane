@@ -1,0 +1,40 @@
+ Pull cdclo 70 0 72ns 310K NPyT
+ &cntrl
+   imin=0,                                 ! Molecular dynamics
+   ntx=5,                                  ! Positions and velocity formatted                           
+   irest=1,                                ! Restart
+   ntc=2,                                  ! SHAKE on for bonds with hydrogen
+   ntf=2,                                  ! No force evaluation for bonds with hydrogen
+   tol=0.0000001                           ! Tolerance for SHAKE
+   nstlim=36000000,                        ! Number of MD steps
+   ntt=3,                                  ! Langevin thermostat
+   gamma_ln=1.0,                           ! Collision frequency for Langevin thermostat
+   temp0=310.0,                            ! Temperature
+   ntpr=10000,                             ! Print mdout every ntpr steps
+   ntwr=500000,                            ! Write a restart file every ntwr steps
+   ntwx=10000,                             ! Write to trajectory file every ntwx files
+   dt=0.002,                               ! Time step in ps
+   ig=-1,                                  ! Random seed for Langevin thermostat
+   ntb=2,                                  ! Constant pressure - NPT
+   ntp=3,                                  ! Semiisotropic pressure coupling
+   csurften=3,                             ! Constant surface tension with interfaces in xy planes
+   gamma_ten=0.0,                          ! Surface tension value in units of dyne/cm
+   ninterface=4,                           ! Number of interfaces in the periodic box
+   cut=10.0,                               ! Nonbonded cutoff in Ansgtroms
+   ioutfm=1,                               ! Write a binary -netcdf- trajectory
+   ntxo=2,                                 ! Write binary restart files
+   nmropt=1,                               ! NMR restraints will be read 
+   jar=1,                                  ! Restraint for steered MD
+ /
+ &wt type='DUMPFREQ', istep1=1000 /        
+ &wt type='END', /
+DISANG=COM_pull1.RST                        
+DUMPAVE=Pull_dist1.dat                      
+LISTIN=POUT
+LISTOUT=POUT
+ /
+ /
+ &ewald
+  skinnb=4.0,
+ /
+
