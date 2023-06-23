@@ -1,0 +1,19 @@
+Minimizacao do solvente com soluto fixo
+&cntrl
+  imin   = 1,           ! Minimize the initial structure 
+  maxcyc = 10000,       ! Maximum number of cycles for minimization
+  ncyc   = 5000,        ! Switch from Steepest Descent to Conjugate Gradient minimization after ncyc cycles
+  ntb    = 1,           ! Constant volume
+  ntp    = 0,           ! No pressure scaling
+  ntr    = 1,           ! Position restraints in a GROUP list using a harmonic potential
+  ntf    = 1,           ! Complete interaction is calculated
+  ntc    = 1,           ! SHAKE is not performed
+  ntpr   = 200,         ! Print mdout every ntpr steps
+  ntwr   = 2000,        ! Write a restart file every ntwr steps
+  cut    = 10.0         ! Nonbonded cutoff in Angstroms
+ / 
+Hold the oxa_mem fixed
+500.0
+RES 1 33-906
+END
+END

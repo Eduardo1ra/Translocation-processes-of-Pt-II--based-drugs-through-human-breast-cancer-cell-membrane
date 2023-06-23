@@ -1,0 +1,14 @@
+Minimizacao de todo o sistema
+&cntrl
+  imin   = 1,      ! Minimize the initial structure
+  maxcyc = 10000,  ! Maximum number of cycles for minimization 
+  ncyc   = 5000,   ! Switch from Steepest Descent to Conjugate Gradient minimization after ncyc cycles
+  ntb    = 1,      ! Constant volume
+  ntp    = 0,      ! No pressure scaling
+  ntr    = 0,      ! No restraints
+  ntf    = 1,      ! Complete interaction is calculated
+  ntc    = 1,      ! SHAKE is not performed
+  ntpr   = 200,    ! Print energy data
+  ntwr   = 2000,   ! Write a restart file every ntwr steps
+  cut    = 10      ! Nonbonded cutoff in Ansgtroms
+ / 

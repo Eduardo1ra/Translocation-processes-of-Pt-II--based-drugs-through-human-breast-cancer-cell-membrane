@@ -1,0 +1,4 @@
+trajin pull_center.nc 1826 1826 1
+trajout frame_35.0.rst restart
+
+
