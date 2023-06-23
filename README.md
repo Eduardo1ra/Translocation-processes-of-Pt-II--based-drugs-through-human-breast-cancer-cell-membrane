@@ -1,5 +1,6 @@
 # Translocation-processes-of-Pt-II--based-drugs-through-human-breast-cancer-cell-membrane
 Files of the paper: Translocation processes of Pt(II)-based drugs through human breast cancer cell membrane: in silico experiments
+Authors: Eduardo R. Almeida, Priscila V. S. Z. Capriles, Hélio F. Dos Santos, Fabien Picaud
 
 Input files, topologies, atomic parameters, and initial coordinates for molecular dynamics simulations. Files for the Steered Molecular Dynamics simulations and for Umbrella Sampling method are also available. The files and scripts were prepared based on the Amber tutorial: https://github.com/callumjd/AMBER-Umbrella_COM_restraint_tutorial
 
